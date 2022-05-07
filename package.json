@@ -8,12 +8,21 @@
     "type": "git",
     "url": "git+https://github.com/Scarecrowsama/srv-registration.git"
   },
-  "keywords": ["registration service", "signup", "registration", "service", "microservice"],
+  "keywords": [
+    "registration service",
+    "signup",
+    "registration",
+    "service",
+    "microservice"
+  ],
   "author": "Tanausu Sosa <tanasosa@tanasosa.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Scarecrowsama/srv-registration/issues"
   },
   "homepage": "https://github.com/Scarecrowsama/srv-registration#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.2"
+  }
 }
