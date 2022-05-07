@@ -1,0 +1,19 @@
+{
+  "name": "srv-registration",
+  "version": "1.0.0",
+  "description": "Generic registration service for microservices applications.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scarecrowsama/srv-registration.git"
+  },
+  "keywords": ["registration service", "signup", "registration", "service", "microservice"],
+  "author": "Tanausu Sosa <tanasosa@tanasosa.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scarecrowsama/srv-registration/issues"
+  },
+  "homepage": "https://github.com/Scarecrowsama/srv-registration#readme",
+  "type": "module"
+}
