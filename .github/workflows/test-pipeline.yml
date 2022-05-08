@@ -1,4 +1,4 @@
-name: dev-pipeline
+name: dev -pipeline
 on: [push]
 jobs:
   push-dev:
@@ -13,6 +13,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build application
-        run: npm build --if-present
+        run: npm run build --if-present
       - name: Test application
         run: npm test
