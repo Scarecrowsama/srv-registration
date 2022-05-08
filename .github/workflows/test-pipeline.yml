@@ -1,0 +1,16 @@
+name: test-pipeline
+on: [push]
+jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16.13.2'
+      - run: npm install
+  test-application:
+    needs: install-dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm run test
