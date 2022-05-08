@@ -1,4 +1,4 @@
-name: dev -pipeline
+name: push-dev
 on: [push]
 jobs:
   push-dev:
