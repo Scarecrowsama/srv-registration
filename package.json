@@ -34,5 +34,9 @@
     "git-commit-msg-linter": "^4.1.2",
     "prettier": "^2.6.2",
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/dotenv-safe": "^8.1.2",
+    "dotenv-safe": "^8.2.0"
   }
 }
