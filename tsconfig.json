@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "ES2021",
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "allowJs": true,
+    "sourceMap": true,
+    "baseUrl": "src",
+    "removeComments": true,
+    "paths": {
+      "@/*": ["*"]
+    },
+  },
+  "include": [
+    "src"
+  ]
+}
